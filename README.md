@@ -1,3 +1,6 @@
+Forker to support Neon-Cross mobile cross-compilation of Rust-Node bindings
+
+--- Below same as original project ---
 
 # The Node.js for Mobile Apps React Native plugin
 
