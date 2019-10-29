@@ -379,6 +379,7 @@ if ("1".equals(shouldRebuildNativeModules)) {
             if(file(original_project_bin).exists()) {
                 environment ('PATH', "${original_project_bin}" + System.getProperty("path.separator") + "${System.env.PATH}")
             }
+            
             environment ('CARGO_BUILD_TARGET', "${cargo_build_target}")
             environment ("CARGO_TARGET_${cargo_target_triple}_AR", "${npm_toolchain_ar}")
             environment ("CARGO_TARGET_${cargo_target_triple}_LINKER", "${npm_toolchain_link}")
