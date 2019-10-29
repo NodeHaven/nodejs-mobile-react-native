@@ -1,4 +1,4 @@
-Forker to support Neon-Cross mobile cross-compilation of Rust-Node bindings
+Forked to support Neon-Cross mobile cross-compilation of Rust-Node bindings
 
 --- Below same as original project ---
 
